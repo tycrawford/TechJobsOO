@@ -9,7 +9,13 @@
     </div>
     <div class="form-group">
         <label asp-for="EmployerID"></label>
-        <select asp-for="EmployerID" asp-items="Model.Employers"></select>
+        <select asp-for="EmployerID" asp-items="Model.Employers"></select><br />
+        <label asp-for="LocationID"></label>
+        <select asp-for="LocationID" asp-items="Model.Locations"></select><br />
+        <label asp-for="CoreCompetencyID"></label>
+        <select asp-for="CoreCompetencyID" asp-items="Model.CoreCompetencies"></select><br />
+        <label asp-for="PositionTypeID"></label>
+        <select asp-for="PositionTypeID" asp-items="Model.PositionTypes"></select><br />
     </div>
 
     @{ 
